@@ -3,10 +3,10 @@
 This patch makes the X-36 unlocked by default in the Strikers 1999 MAME rom. It has no other effect. The advantage to unlocking the X-36 in this manner, as opposed to using the built-in password, is mainly that you will be able to record and playback Strikers 1999 demos in MAME with all ships, while disabling nvram. Which will let you avoid demo desync. After patching your rom, make sure to add the following command to both your recording and playback shortcuts:  
 
 If using Shmupmame 4.2:  -nvram_directory nul          
-Example: /Shmupmameui_v42.exe s1945iii -record strikersdemo.inp -nvram_directory nul
+Example: \Shmupmameui_v42.exe s1945iii -record strikersdemo.inp -nvram_directory nul
 
 If using regular MAME:    -nonvram_save                 
-Example: /mame.exe s1945iii -record strikersdemo.inp -nonvram_save  
+Example: \mame.exe s1945iii -record strikersdemo.inp -nonvram_save  
 
 Before launching the patched game like this, make sure your MAME nvram directory has no "s1945iii" folder in it.
 
