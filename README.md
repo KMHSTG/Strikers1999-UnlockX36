@@ -6,8 +6,9 @@ If using Shmupmame 4.2:  -nvram_directory nul
 Example: /Shmupmameui_v42.exe s1945iii -record strikersdemo.inp -nvram_directory nul
 
 If using regular MAME:    -nonvram_save                 
-Example: /mame.exe s1945iii -record strikersdemo.inp -nonvram_save
+Example: /mame.exe s1945iii -record strikersdemo.inp -nonvram_save  
 
+Before launching the patched game like this, make sure your MAME nvram directory has no "s1945iii" folder in it.
 
 ## Patching Instructions:
 
