@@ -30,3 +30,8 @@ eeprom-s1945iii.bin
 (Patched) &nbsp; CRC32:&nbsp; 05ff62bb  
 (Patched) &nbsp; MD5:  &nbsp; &nbsp;   9727640eb06674d0baa55a1ce12da779  
 (Patched) &nbsp;  SHA-1: &nbsp; 06e193ba5cfb7f56eb10ed755de91b483104048a  
+
+## &nbsp;
+
+Patch by KMH  
+2023-04-17 - Released
