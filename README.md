@@ -1,6 +1,6 @@
 # **Strikers 1999 / 1945-III - Unlock X-36**
 
-This patch makes the X-36 unlocked by default in the Strikers 1999 MAME rom. It has no other effect. The advantage to unlocking the X-36 in this manner, as opposed to using the built-in password, is mainly that you will be able to record and playback Strikers 1999 demos in MAME with all ships, while disabling nvram. Which will let you avoid demo desync. After patching your rom, make sure to add the following command to both your recording and playback shortcuts:  
+This patch makes the X-36 unlocked by default in the Strikers 1999 MAME rom. It has no other effect. The advantage to unlocking the X-36 in this manner, as opposed to using the built-in password, is mainly that you will be able to record and playback Strikers 1999 demos in MAME with all ships, while disabling nvram. Which will let you avoid demo desync. After patching your rom, make sure to add the following command to both your recording and playback shortcuts (and any other shortcuts you will be launching the game with):  
 
 If using Shmupmame 4.2:  -nvram_directory nul          
 Example: \Shmupmameui_v42.exe s1945iii -record strikersdemo.inp -nvram_directory nul
@@ -8,7 +8,7 @@ Example: \Shmupmameui_v42.exe s1945iii -record strikersdemo.inp -nvram_directory
 If using regular MAME:    -nonvram_save                 
 Example: \mame.exe s1945iii -record strikersdemo.inp -nonvram_save  
 
-Before launching the patched game like this, make sure your MAME nvram directory has no "s1945iii" folder in it.
+Before launching the patched game like this, make sure your MAME nvram directory has no "s1945iii" folder in it. If you make a mistake with your shortcuts, and run the game even once without the nvram-disable, then MAME will immediately recreate the s1945iii folder in the nvram directory. Preventing the s1945iii folder from ever appearing there, should be your visual aid on how to avoid demo desync with certainty.
 
 ## Patching Instructions:
 
